@@ -1,7 +1,7 @@
  provider "aws" {
   region = "us-east-1"
-  access_key ="AKIA4V77YJM46CL5MLNE"
-  secret_key = "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"
+  access_key ="#######################"
+  secret_key = "##################################"
 }
 
 variable "subnet_prefix" {
