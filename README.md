@@ -1,5 +1,5 @@
-# Aws
-How to Create Aws Infrastructure using Terraform Script
+# How to Create Aws Infrastructure using Terraform Script
+
 Terraform Cloud-
 Terraform Cloud enables infrastructure automation for provisioning, compliance, and management of any cloud, datacenter, and service.
 
