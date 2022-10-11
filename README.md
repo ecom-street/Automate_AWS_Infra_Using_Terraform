@@ -45,7 +45,7 @@ Some of the Terraform blocks (elements) and their purpose is given below.
 # Providers:-
 The provider block configures the specified provider, in this case aws. A provider is a plugin that Terraform uses to create and manage your resources.
 
-You can use multiple provider blocks in your Terraform configuration to manage resources from different providers. You can even use different providers together. For example, you could pass the IP address of your AWS EC2 instance to a monitoring resource from DataDog.
+You can use multiple provider blocks in your Terraform configuration to manage resources from different providers. You can even use different providers together. For example, you could pass aws credentials like access key and secret key.
 
 <img width="479" alt="provider" src="https://user-images.githubusercontent.com/115148205/194998252-fd347db4-c9a6-4333-a1b4-94c489906cf1.PNG">
 
