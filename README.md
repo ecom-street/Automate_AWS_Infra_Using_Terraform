@@ -32,6 +32,7 @@ The following file presumes that you are using the AWS Config profile. So it ref
 
 <img width="579" alt="vpc1" src="https://user-images.githubusercontent.com/115148205/194997838-06eab9d0-0943-4556-b3a6-a71dd64db9d1.PNG">
 
+
 Terraform configuration file would ideally have lot of elements known as blocks such as provider , resource etcetera.
 
 This is a Syntax of how Terraform Configuration file block is formatted
@@ -98,6 +99,52 @@ Now go to aws console and check in vpc service .
 
 3. Step3:- For create a internet Gateway we need to define terraform internet gateway resouces as shown below.
 <img width="814" alt="IGW" src="https://user-images.githubusercontent.com/115148205/195006552-b6a2c0c5-2f11-4837-9670-c52f986a8453.PNG">
+
+After define Internet Gateway we need to run the terraform plan and terraform apply commands and check in the aws vpc service console.
+
+4. Step4:- For cetare a route table we need to define terraform aws route table resouces.
+<img width="811" alt="route_table" src="https://user-images.githubusercontent.com/115148205/195012155-2f104bb2-4421-4372-9b98-a868e586a330.PNG">
+
+After defining Route Table we need to run the terraform plan and terraform apply commands and check in the aws vpc service console.
+
+5. Step5:- For create a subnet we need to define terraform aws subnet resouces.
+<img width="819" alt="subnet" src="https://user-images.githubusercontent.com/115148205/195012560-8fac082f-31ed-4d3b-8eae-fc961e2a53a5.PNG">
+
+After defining Subnet we need to run the terraform plan and terraform apply commands and check in the aws vpc service console.
+
+6. Step6:- For associate route table with subnet we need to define terraform aws associate route table with subnet resource.
+<img width="813" alt="associate" src="https://user-images.githubusercontent.com/115148205/195013139-d957d181-6fc1-47d1-9672-4eff65d3d96b.PNG">
+
+After defining associate route table with subnet resource we need to run the terraform plan and terraform apply commands and check in the aws vpc service console.
+
+7. Step7:- For create a  security group we need to define terraform aws secuirity group resource.
+<img width="819" alt="SG" src="https://user-images.githubusercontent.com/115148205/195013557-86a930c3-8d0c-45bb-8f9a-e649f0d46f85.PNG">
+
+<img width="807" alt="SG1" src="https://user-images.githubusercontent.com/115148205/195013899-2a46a4f3-1f70-4994-9cf5-d794a1afe6aa.PNG">
+
+After defining secuirity group resource we need to run the terraform plan and terraform apply commands and check in the aws vpc service console.
+
+8. Step8:- For create network interface with an IP that was created on step 5 we need to define terraform aws network interface resource.
+<img width="812" alt="NI" src="https://user-images.githubusercontent.com/115148205/195014264-417de1c6-eb59-4716-bbcf-1e9c4bb82d1e.PNG">
+
+After defining network interface resource we need to run the terraform plan and terraform apply commands and check in the aws vpc service console.
+
+9. Step9:- For Assign an elastic IP to network interface created in step 8 we need to define terraform aws Assign an elastic IP resource.
+<img width="819" alt="EP" src="https://user-images.githubusercontent.com/115148205/195014798-b2a4d472-018b-42de-88e1-c54c74e5bbe5.PNG">
+
+After defining Assign an elastic IP resource we need to run the terraform plan and terraform apply commands and check in the aws vpc service console.
+
+10. Step10:- For create a EC2 instance ubuntu server and install/enable apache2 we need to define terraform aws EC2 instanc resource.
+<img width="822" alt="ec2" src="https://user-images.githubusercontent.com/115148205/195015334-567bc83c-254d-4ccb-8e29-35fdae1b5803.PNG">
+
+After defining EC2 instanP resource we need to run the terraform plan and terraform apply commands and check in the aws EC@ service console.
+
+
+
+
+
+
+
 
 
 
