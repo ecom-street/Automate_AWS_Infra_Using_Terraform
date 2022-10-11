@@ -33,13 +33,13 @@ The following file presumes that you are using the AWS Config profile. So it ref
 <img width="579" alt="vpc1" src="https://user-images.githubusercontent.com/115148205/194997838-06eab9d0-0943-4556-b3a6-a71dd64db9d1.PNG">
 
 
-Terraform configuration file would ideally have lot of elements known as blocks such as provider , resource etcetera.
+Terraform configuration file would ideally have lot of elements known as blocks such as provider , resource etc.
 
 This is a Syntax of how Terraform Configuration file block is formatted
 
 <img width="479" alt="provider" src="https://user-images.githubusercontent.com/115148205/194997985-40acf808-a632-47f1-b831-b63303f95c1a.PNG">
 
-There are ample amount of BLOCK_TYPE available in Terraform and the resource is primary and all others are to support building that specified resource.
+There are sample amount of BLOCK_TYPE available in Terraform and the resource is primary and all others are to support building that specified resource.
 Some of the Terraform blocks (elements) and their purpose is given below.
 
 # Providers:-
