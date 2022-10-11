@@ -57,24 +57,47 @@ Resource blocks contain arguments which you use to configure the resource. Argum
 
 <img width="714" alt="resource" src="https://user-images.githubusercontent.com/115148205/194999689-bb6aa0ad-d45d-42a7-9e4b-e3554458c745.PNG">
 
-# variable :-
+# Variable :-
 To declare input variables.
 
 <img width="440" alt="variable" src="https://user-images.githubusercontent.com/115148205/195000033-11bb9ddc-cbfb-4b21-b0ae-6bd5900dcb81.PNG">
 
-# output :- 
+# Output :- 
 To declare output variables which would be retained the Terraform state file.
 
 <img width="601" alt="output" src="https://user-images.githubusercontent.com/115148205/195000236-30ced75c-9d09-4893-8cc9-9eb785e4dbd0.PNG">
 
-# local:-
+# Local:-
 To assign value to an expression, these are local temporary variables work with in a modul.
-# module :-
+<img width="286" alt="local" src="https://user-images.githubusercontent.com/115148205/195004133-7b598640-4b69-4480-bfe5-37cbf917eefa.PNG">
+
+# Module :-
 A module is a container for multiple resources that are used together.
-# data :-
+<img width="544" alt="Module" src="https://user-images.githubusercontent.com/115148205/195003903-e3196314-bfed-403b-aa60-04c695dcc476.PNG">
+
+# Data :-
 To Collect data from the remote provider and save it as a data source.
+<img width="812" alt="data" src="https://user-images.githubusercontent.com/115148205/195004272-1259e0b2-5079-45b0-a441-2e6f6874b0da.PNG">
 
+# These are the followings steps to build AWS VPC Using Terrafrom.
+1. Step1:- Need to define provider as shown in the attachemnets.
+<img width="479" alt="provider" src="https://user-images.githubusercontent.com/115148205/195005215-ee41327d-02ab-458f-9b1b-050c6d887a70.PNG">
+After giving aws keys we need to initialise the the terraform by usning terraform init command.
+<img width="865" alt="initialize" src="https://user-images.githubusercontent.com/115148205/195005707-280988b9-12eb-4c3b-aab8-b925c37e2a4f.PNG">
 
+2. Step2:- for create a vpc we need to define  terraform aws resouces.
+<img width="785" alt="vpc" src="https://user-images.githubusercontent.com/115148205/195005966-4b0e3dfa-111b-42f0-baa8-3351ac08cfe0.PNG">
+
+In VPC we need to define CIDR and after defining we need to run the terraform plan command to review the all changes.
+<img width="823" alt="plan" src="https://user-images.githubusercontent.com/115148205/195007028-ce148ee8-8f79-4d1e-8c69-ae304ac9e4fb.PNG">
+
+Than run the terraform apply command.
+<img width="877" alt="apply" src="https://user-images.githubusercontent.com/115148205/195007324-e3eac2bb-949f-4b08-b7f0-2776f4f2cb45.PNG">
+
+Now go to aws console and check in vpc service .
+
+3. Step3:- For create a internet Gateway we need to define terraform internet gateway resouces as shown below.
+<img width="814" alt="IGW" src="https://user-images.githubusercontent.com/115148205/195006552-b6a2c0c5-2f11-4837-9670-c52f986a8453.PNG">
 
 
 
