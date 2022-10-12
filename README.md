@@ -142,7 +142,7 @@ After defining Assign an elastic IP resource we need to run the terraform plan a
 <img width="822" alt="ec2" src="https://user-images.githubusercontent.com/115148205/195015334-567bc83c-254d-4ccb-8e29-35fdae1b5803.PNG">
 
 After defining EC2 instance resource we need to run the terraform plan and terraform apply commands and check in the aws EC2 service console.
-# These are the some terraform commands give below:-
+# These are the some terraform commands given below:-
 # Format and validate the configuration
 We recommend using consistent formatting in all of your configuration files. The terraform fmt command automatically updates configurations in the current directory for readability and consistency.
 
