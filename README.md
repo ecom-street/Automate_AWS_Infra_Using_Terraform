@@ -41,7 +41,8 @@ Terraform configuration file would ideally have lot of elements known as blocks 
 
 This is a Syntax of how Terraform Configuration file block is formatted
 
-<img width="822" alt="ec2" src="https://user-images.githubusercontent.com/115148205/195038533-ebb6a273-1adb-480c-8e3e-7918dcca5078.PNG">
+<img width="829" alt="a11" src="https://user-images.githubusercontent.com/115148205/195759687-fb00edb3-4256-4579-b1b7-ee627c36e587.PNG">
+
 
 There are sample amount of BLOCK_TYPE available in Terraform and the resource is primary and all others are to support building that specified resource.
 Some of the Terraform blocks (elements) and their purpose is given below.
